@@ -1,0 +1,11 @@
+
+.icon-apple:before { content: '\e800'; } /* '' */
+.icon-windows:before { content: '\e801'; } /* '' */
+.icon-android:before { content: '\e802'; } /* '' */
+.icon-star:before { content: '\e803'; } /* '' */
+.icon-twitter:before { content: '\e804'; } /* '' */
+.icon-facebook:before { content: '\e805'; } /* '' */
+.icon-pinterest:before { content: '\e806'; } /* '' */
+.icon-gplus:before { content: '\e807'; } /* '' */
+.icon-linkedin:before { content: '\e808'; } /* '' */
+.icon-youtube:before { content: '\e809'; } /* '' */
