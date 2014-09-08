@@ -1,0 +1,28 @@
+body {
+	font-family:;
+}
+
+header, nav, section, article, aside, footer {
+	display: block
+}
+
+/*Header*/
+.preview {
+	background-image: ;
+	border-top: 3px #2ecc71 solid;
+	color: white;
+}
+
+/*Features section*/
+
+/*Subscription section*/
+
+/*Testimonial section*/
+
+/*Footer*/
+.footer {
+	color: #848484;
+	background-color: #e3e3e3;
+	width: 100%;
+	font-family: HelveticaNeue, Arial, sans-serif;
+}
