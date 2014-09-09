@@ -12,7 +12,7 @@ Landing page markup creation - Training project
 * without fluid grid
 * pixelperfect only in the latest version of the Chrome
 
-**View result**: (comming soon)
+**View result**: http://kiwka.github.io/landing-page-markup/
 
 To compare result with the initial design you can use this one extension for the Google Chrome: https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
 
