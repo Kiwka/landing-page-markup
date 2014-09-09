@@ -1,3 +1,42 @@
+/*Fonts adding*/
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url('../font/HelveticaNeue.eot') format('embedded-opentype'),
+	url('../font/HelveticaNeue.woff') format('woff'),
+	url('../font/HelveticaNeue.ttf') format('truetype'),
+	url('../font/HelveticaNeue.svg') format('svg');
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	font-style: italic;
+	src: url('../font/HelveticaNeueItalic.eot') format('embedded-opentype'),
+	url('../font/HelveticaNeueItalic.woff') format('woff'),
+	url('../font/HelveticaNeueItalic.ttf') format('truetype'),
+	url('../font/HelveticaNeueItalic.svg') format('svg');
+}
+
+@font-face {
+	font-family: "HelveticaNeueMedium";
+	src: url('../font/HelveticaNeueMedium.eot') format('embedded-opentype'),
+	url('../font/HelveticaNeueMedium.woff') format('woff'),
+	url('../font/HelveticaNeueMedium.ttf') format('truetype'),
+	url('../font/HelveticaNeueMedium.svg') format('svg');
+}
+
+/*Icon font*/
+@font-face {
+	font-family: 'fontello';
+	src: url('../font/fontello.eot?15781817');
+	src: url('../font/fontello.eot?15781817#iefix') format('embedded-opentype'),
+		url('../font/fontello.woff?15781817') format('woff'),
+		url('../font/fontello.ttf?15781817') format('truetype'),
+		url('../font/fontello.svg?15781817#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Basic styles*/
 body {
 	font-family:;
 	margin: 0;
@@ -21,6 +60,14 @@ header, nav, section, article, aside, footer, video {
 	margin-top: 168px;
 	margin-left: 324px;
 	float: left;
+	width: 460px;
+}
+
+.preview__text {
+	font-family: 'HelveticaNeueMedium', sans-serif;
+	font-size: 24px;
+	line-height: 36px;
+	padding-left: 4px;
 }
 
 .preview__link {
@@ -31,10 +78,31 @@ header, nav, section, article, aside, footer, video {
 	height: 52px;
 	width: 52px;
 	border-radius: 50%;
+	text-align: center;
+	line-height: 52px;
+	font-family: 'fontello';
+	font-size: 28px;
+	margin-left: 6px;
+	margin-right: 6px;
 }
 
 .preview__link:hover {
 	background-color: #2ecc71;
+}
+
+.preview__apple:before {
+	content: '\e800';
+	display: inline-block;
+}
+
+.preview__android:before {
+	content: '\e802';
+	display: inline-block;
+}
+
+.preview__windows:before {
+	content: '\e801';
+	display: inline-block;
 }
 
 .preview__image {
@@ -61,14 +129,15 @@ header, nav, section, article, aside, footer, video {
 	margin: 0 auto;
 }
 
-.features h3 {
-	font-family: Raleway Semibold, Arial, sans-serif;
+.features__header {
+	font-family: 'HelveticaNeueMedium', sans-serif;
+	font-weight: 600;
 	font-size: 22px;
 	color: #222222;
 }
 
-.features p{
-	font-family: HelveticaNeue, Arial, sans-serif;
+.features__text {
+	font-family: 'HelveticaNeue', sans-serif;
 	font-size: 16px;
 	color: #848484;
 }
@@ -95,11 +164,18 @@ header, nav, section, article, aside, footer, video {
 	text-transform: capitalize;
 }
 
+.subscription__text {
+	font-family: 'HelveticaNeue', sans-serif;
+	font-size: 16px;
+}
+
 .subscription__form__input {
 	height: 56px;
 	float: left;
 	margin-right: 0px;
 	width: 305px;
+	font-family: 'HelveticaNeue', sans-serif;
+	font-size: 18px;
 }
 
 .subscription__form__button {
@@ -111,6 +187,7 @@ header, nav, section, article, aside, footer, video {
 	margin-left: 0px;
 	width: 141px;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 	font-size: 22px;
 }
 
@@ -129,9 +206,15 @@ header, nav, section, article, aside, footer, video {
 	text-align: center;
 }
 
+.testimonials__text {
+	font-family: 'HelveticaNeue', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+}
+
 .testimonials__name {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 18px;
 }
 
@@ -148,6 +231,11 @@ header, nav, section, article, aside, footer, video {
 	font-size: 24px;
 }
 
+.social__text {
+	font-family: 'HelveticaNeue', sans-serif;
+	font-size: 16px;
+}
+
 .social__link {
 	display: inline-block;
 	background-color: #c5c5c5;
@@ -157,6 +245,9 @@ header, nav, section, article, aside, footer, video {
 	border-radius: 50%;
 	margin-left: 5px;
 	margin-right: 5px;
+	font-family: 'fontello';
+	line-height: 34px;
+	text-align: center;
 }
 
 .social__link:hover{
@@ -172,7 +263,8 @@ header, nav, section, article, aside, footer, video {
 	width: 100%;
 	height: 138px;
 	line-height: 138px;
-	font-family: HelveticaNeue, Arial, sans-serif;
+	font-family: 'HelveticaNeue', sans-serif;
+	font-size: 16px;
 }
 
 .footer a {
