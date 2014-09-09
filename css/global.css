@@ -10,10 +10,17 @@ header, nav, section, article, aside, footer, video {
 /*Header*/
 .preview {
 	background-image: url(../img/header-background.png);
-	border-top: 3px #2ecc71 solid;
+	border-top: 10px #2ecc71 solid;
 	color: white;
 	width: 100%;
 	height: 600px;
+	position: relative;
+}
+
+.preview__content {
+	margin-top: 168px;
+	margin-left: 324px;
+	float: left;
 }
 
 .preview__link {
@@ -28,6 +35,13 @@ header, nav, section, article, aside, footer, video {
 
 .preview__link:hover {
 	background-color: #2ecc71;
+}
+
+.preview__image {
+	float: right;
+	position: absolute;
+	bottom: -2px;
+	right: 243px;
 }
 
 /*Features section*/
@@ -64,11 +78,21 @@ header, nav, section, article, aside, footer, video {
 .subscription {
 	background-color: #e3e3e3;
 	width: 100%;
+	height: 427px;
 }
 
 .subscription__invitation {
+	margin-top: 60px;
+	margin-left: 211px;
 	display: inline-block;
-	width: 50%;
+	width: 533px;
+}
+
+.subscription__header {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	text-transform: capitalize;
 }
 
 .subscription__form__input {
@@ -86,15 +110,29 @@ header, nav, section, article, aside, footer, video {
 	float: left;
 	margin-left: 0px;
 	width: 141px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
 }
 
 .subscription video {
-	border-radius: ;
+	position: relative;
+	float: right;
+	margin-top: 60px;
+	margin-right: 211px;
+	width: 500px;
+	height: 308px;
+	margin-bottom: 60px;
 }
 
 /*Testimonial section*/
 .testimonials {
 	text-align: center;
+}
+
+.testimonials__name {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700px;
+	font-size: 18px;
 }
 
 /*Social section*/
@@ -104,6 +142,12 @@ header, nav, section, article, aside, footer, video {
 	margin-bottom: 60px;
 }
 
+.social__header {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+}
+
 .social__link {
 	display: inline-block;
 	background-color: #c5c5c5;
@@ -111,6 +155,8 @@ header, nav, section, article, aside, footer, video {
 	height: 34px;
 	color: white;
 	border-radius: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .social__link:hover{

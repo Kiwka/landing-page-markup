@@ -5,16 +5,20 @@
 	<!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/global.css">
 	<title>Landing page</title>
 </head>
 <body>
 	<header class="preview">
-		<img src="img/logo.png" alt="Notify">
-		<p>A great new free psd theme to showcase your new application.</p>
-		<a class="preview__link" href=""></a>
-		<a class="preview__link" href=""></a>
-		<a class="preview__link" href=""></a>
+		<article class="preview__content">
+			<img class="preview__logo" src="img/logo.png" alt="Notify">
+			<p>A great new free psd theme to showcase your new application.</p>
+			<a class="preview__link" href=""></a>
+			<a class="preview__link" href=""></a>
+			<a class="preview__link" href=""></a>
+		</article>
+		<img class="preview__image" src="img/hand.png" alt="">
 	</header>
 	<section class="features">
 		<article class="features__item">
@@ -35,8 +39,8 @@
 	</section>
 	<section class="subscription">
 		<article class="subscription__invitation">
-			<h3>Get notified of any updates!</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
+			<h3 class="subscription__header">Get notified of any updates!</h3>
+			<p class="subscription__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
 			<form class="subscription__form" action="">
 				<input class="subscription__form__input" type="email" name="email">
 				<button class="subscription__form__button">Notify</button>
@@ -45,12 +49,12 @@
 		<video class="subscription__video" src="http://vimeo.com/25541923"></video>
 	</section>
 	<section class="testimonials">
-		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifen ut."</p>
-		<p>Jane Hunt</p>
+		<p class="testimonials__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifen ut."</p>
+		<p class="testimonials__name">Jane Hunt</p>
 		<a href=""></a>
 	</section>
 	<section class="social">
-		<h2>Say Hi & Get in Touch</h2>
+		<h2 class="social__header">Say Hi & Get in Touch</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</p>
 		<a class="social__link" href="http://twitter.com/"></a>
 		<a class="social__link" href="http://facebook.com/"></a>
