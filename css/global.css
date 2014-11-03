@@ -37,12 +37,9 @@
 }
 
 /*Basic styles + reset*/
-body {
+body, ul {
 	margin: 0;
-}
-
-ul {
-	padding-left: 0px;
+	padding: 0;
 }
 
 header, nav, section, article, aside, footer, video, blockquote {
@@ -117,12 +114,10 @@ header, nav, section, article, aside, footer, video, blockquote {
 }
 
 .features__item {
-	margin-top: 60px;
+	margin: 60px 105px 35px 0;
 	text-align: center;
 	display: inline-block;
 	width: 27%;
-	margin-bottom: 35px;
-	margin-right: 105px;
 }
 
 .features__item:last-child {
