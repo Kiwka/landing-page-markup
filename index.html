@@ -11,13 +11,15 @@
 </head>
 <body>
 	<header class="preview">
-		<article class="preview__content">
+		<div class="preview__content">
 			<img class="preview__logo" src="img/logo.png" alt="Notify">
-			<p class="preview__text">A great new free psd theme to showcase your new application.</p>
-			<a class="preview__link" href=""><div class="preview__apple"></div></a>
-			<a class="preview__link" href=""><div class="preview__android"></div></a>
-			<a class="preview__link" href=""><div class="preview__windows"></div></a>
-		</article>
+			<div class="preview__text">A great new free psd theme to showcase your new application.</div>
+			<ul>
+				<li class="preview__item"><a class="preview__link preview__apple" href=""></a></li>
+				<li class="preview__item"><a class="preview__link preview__android" href=""></a></li>
+				<li class="preview__item"><a class="preview__link preview__windows" href=""></a></li>
+			</ul>
+		</div>
 		<img class="preview__image" src="img/hand.png" alt="">
 	</header>
 	<section class="features">
@@ -26,7 +28,7 @@
 			<h3 class="features__header">Editable Theme</h3>
 			<p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
 		</article>
-		<article class="features__item features__item-central">
+		<article class="features__item">
 			<div class="features__icon"><div class="features__star"></div></div>
 			<h3 class="features__header">Flat Design</h3>
 			<p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
@@ -49,28 +51,32 @@
 		<video class="subscription__video" ></video>
 	</section>
 	<section class="testimonials">
-		<p class="testimonials__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifen ut."</p>
-		<p class="testimonials__name">Jane Hunt</p>
+		<blockquote class="testimonials__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifen ut."</blockquote>
+		<address class="testimonials__name">Jane Hunt</address>
 		<nav class="testimonials__people"><a href=""></a></nav>
 	</section>
 	<section class="social">
 		<h2 class="social__header">Say Hi & Get in Touch</h2>
-		<p class="social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</p>
-		<a class="social__link" href="http://twitter.com/"><div class="social__twitter"></div></a>
-		<a class="social__link" href="http://facebook.com/"><div class="social__facebook"></div></a>
-		<a class="social__link" href="http://pinterest.com/"><div class="social__pinterest"></div></a>
-		<a class="social__link" href="http://google.com/"><div class="social__google"></div></a>
-		<a class="social__link" href="http://linkedin.com/"><div class="social__linkedin"></div></a>
-		<a class="social__link" href="http://youtube.com/"><div class="social__youtube"></div></a>
+		<div class="social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</div>
+		<ul>
+			<li class="social__item"><a class="social__link social__twitter" href="http://twitter.com/"></a></li>
+			<li class="social__item"><a class="social__link social__facebook" href="http://facebook.com/"></a></li>
+			<li class="social__item"><a class="social__link social__pinterest" href="http://pinterest.com/"></a></li>
+			<li class="social__item"><a class="social__link social__google" href="http://google.com/"></a></li>
+			<li class="social__item"><a class="social__link social__linkedin" href="http://linkedin.com/"></a></li>
+			<li class="social__item"><a class="social__link social__youtube" href="http://youtube.com/"></a></li>
+		</ul>
 	</section>
 	<footer class="footer">
 		<nav>
-			<a href="/contact/">Contact</a>
-			<a href="/download/">Download</a>
-			<a href="/press/">Press</a>
-			<a href="/email/">Email</a>
-			<a href="/support/">Support</a>
-			<a href="/privacy-policy/">Privacy Policy</a>
+			<ul>
+				<li class="footer__item"><a href="/contact/">Contact</a></li>
+				<li class="footer__item"><a href="/download/">Download</a></li>
+				<li class="footer__item"><a href="/press/">Press</a></li>
+				<li class="footer__item"><a href="/email/">Email</a></li>
+				<li class="footer__item"><a href="/support/">Support</a></li>
+				<li class="footer__item"><a href="/privacy-policy/">Privacy Policy</a></li>
+			</ul>
 		</nav>
 	</footer>
 </body>
